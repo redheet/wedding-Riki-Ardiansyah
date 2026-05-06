@@ -16,7 +16,7 @@ export default function Hero({
   });
 
   // Get nama from URL hash (e.g., #naufal dan keluarga)
-  const [nama, setNama] = React.useState<string>("Masukan Nama Undangan");
+  const [nama, setNama] = React.useState<string>("Nama Undangan");
 
   React.useEffect(() => {
     const hash = window.location.hash.substring(1); // Remove the #
@@ -37,8 +37,8 @@ export default function Hero({
             <p className="font-extralight text-[0.8rem] mt-4">
               Sabtu, 16 Mei 2026
             </p>
-            <p className="font-extralight text-[1.1rem] mt-8">
-              {nama.split("&").pop()?.trim() || "Keluarga"}
+            <p className="font-extralight text-[1.2rem] mt-8">
+              {nama.trim() || "Keluarga"}
             </p>
           </div>
           {/* {nama.map((tamu) => ( */}
