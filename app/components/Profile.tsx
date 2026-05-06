@@ -27,22 +27,22 @@ function Profile() {
           </div>
           <RevealWrapper duration={1500} origin="right">
             <img
-              src="/images/profile/2.webp"
-              alt="Maulana"
+              src="/images/profile/BPS_7706.webp"
+              alt="Riki Ardiansyah"
               className="translate-x-[3rem]"
             />
           </RevealWrapper>
         </div>
         <div className="flex flex-col items-end text-right gap-6 mt-12">
           <RevealWrapper duration={1500} origin="bottom">
-            <h1 className="italic text-2xl font-light">Maulana Yusup</h1>
+            <h1 className="italic text-2xl font-light">Riki Ardiansyah ( Slay )</h1>
           </RevealWrapper>
           <p className="text-sm leading-relaxed">
             <strong>Putera Tunggal dari</strong>
             <br />
-            Bapak Sahidin TB 
+            Putra pertama Bpk. Aselih
             <br />
-            & Ibu Marni
+            & Ibu Komariah
           </p>
           {/* <a
             href="#"
@@ -56,7 +56,7 @@ function Profile() {
         <div className="grid grid-cols-2 mt-20">
           <RevealWrapper duration={1500} origin="left">
             <img
-              src="/images/profile/1.webp"
+              src="/images/profile/BPS_7701.webp"
               alt="Aura"
               className="-translate-x-[3rem]"
             />
@@ -73,15 +73,15 @@ function Profile() {
         <div className="flex flex-col items-start text-left gap-6 mt-12">
           <RevealWrapper duration={1500} origin="bottom">
             <h1 className="italic text-2xl font-light">
-            Aura Latifah Rahman, S.Kep
+            Silvia ( Ipii )
             </h1>
           </RevealWrapper>
           <p className="text-sm leading-relaxed">
             <strong>Puteri Kedua dari</strong>
             <br />
-            Bapak Abdurrahman, S.Ag. 
+            Putri kedua Bpk. Saimin 
             <br />
-            & Ibu Ita Romlah, M.Pd.
+            & Ibu Yati
           </p>
           {/* <a
             href="#"
