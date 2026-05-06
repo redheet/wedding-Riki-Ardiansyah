@@ -12,7 +12,7 @@ const firebaseConfig = {
   projectId: "wedding-maulana",
   storageBucket: "wedding-maulana.firebasestorage.app",
   messagingSenderId: "575211817387",
-  appId: "1:575211817387:web:0225ba8a946e572ca42aee"
+  appId: "1:575211817387:web:0225ba8a946e572ca42aee",
 };
 
 const app = initializeApp(firebaseConfig);
@@ -23,12 +23,12 @@ async function sendReservation(
   wish: string,
   presence: string,
   numOfPeople: string | null,
-  waktuKehadiran: string | null
+  waktuKehadiran: string | null,
 ) {
   try {
     await addDoc(collection(db, "reservation"), {
       name: name,
-      
+
       wish: wish,
       presence: presence,
       time: serverTimestamp(),
