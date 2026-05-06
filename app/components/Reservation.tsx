@@ -36,7 +36,7 @@ function Reservation() {
       setReservations(
         querySnapshot.docs.map((doc) => {
           return { id: doc.id, ...doc.data() };
-        })
+        }),
       );
     });
   }, []);
@@ -160,7 +160,7 @@ function Reservation() {
                   inputValue.wish,
                   inputValue.presence,
                   inputValue.numOfPeople,
-                  inputValue.waktuKehadiran
+                  inputValue.waktuKehadiran,
                 );
                 setInputValue({
                   ...inputValue,
