@@ -13,7 +13,7 @@ function Profile() {
             <br />
             Assalamu'alaikum Warahmatullaahi Wabarakaatuh. Dengan memohon Rahmat
             serta Ridho Allah SWT. <br />Kami mengharapkan kehadiran
-            Bapak/Ibu/Saudara/i. pada acara Resepsi Pernikahan putra-putri kami.
+            Bapak/Ibu/Saudara/i. Pada acara resepsi pernikahan putra-putri kami.
           </p>
         </RevealWrapper>
         <div className="grid grid-cols-2 mt-20">
@@ -40,7 +40,7 @@ function Profile() {
           <p className="text-sm leading-relaxed">
             <strong>Putera Tunggal dari</strong>
             <br />
-            Putra pertama Bpk. Aselih
+            Bpk. Aselih
             <br />
             & Ibu Komariah
           </p>
@@ -73,13 +73,13 @@ function Profile() {
         <div className="flex flex-col items-start text-left gap-6 mt-12">
           <RevealWrapper duration={1500} origin="bottom">
             <h1 className="italic text-2xl font-light">
-            Silvia ( Ipii )
+              Silvia ( Ipii )
             </h1>
           </RevealWrapper>
           <p className="text-sm leading-relaxed">
             <strong>Puteri Kedua dari</strong>
             <br />
-            Putri kedua Bpk. Saimin 
+            Putri kedua Bpk. Saimin
             <br />
             & Ibu Yati
           </p>
