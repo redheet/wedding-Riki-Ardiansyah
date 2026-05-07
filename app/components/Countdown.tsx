@@ -1,8 +1,14 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Countdown from "react-countdown";
 import { RevealWrapper } from "next-reveal";
 
 const CountdownComp: React.FC = () => {
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+
   function renderer({
     days,
     hours,
@@ -47,10 +53,14 @@ const CountdownComp: React.FC = () => {
                 </p>
                 <p className="py-2 px-2 flex flex-col gap-2">
                   <span>COUNTDOWN</span>
-                  <Countdown
-                    date={new Date("2026-05-16")}
-                    renderer={renderer}
-                  />
+                  {mounted ? (
+                    <Countdown
+                      date={new Date("2026-05-16")}
+                      renderer={renderer}
+                    />
+                  ) : (
+                    <span>Loading...</span>
+                  )}
                 </p>
               </div>
             </RevealWrapper>
