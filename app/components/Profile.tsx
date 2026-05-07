@@ -38,7 +38,7 @@ function Profile() {
             <h1 className="italic text-2xl font-light">Riki Ardiansyah ( Slay )</h1>
           </RevealWrapper>
           <p className="text-sm leading-relaxed">
-            <strong>Putera Tunggal dari</strong>
+            <strong>Putera Pertama dari</strong>
             <br />
             Bpk. Aselih
             <br />
