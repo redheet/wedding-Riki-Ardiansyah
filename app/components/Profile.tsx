@@ -79,7 +79,7 @@ function Profile() {
           <p className="text-sm leading-relaxed">
             <strong>Puteri Kedua dari</strong>
             <br />
-            Putri kedua Bpk. Saimin
+            Bpk. Saimin
             <br />
             & Ibu Yati
           </p>
