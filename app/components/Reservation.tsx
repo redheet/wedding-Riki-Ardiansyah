@@ -121,7 +121,7 @@ function Reservation() {
                   value={inputValue.waktuKehadiran!}
                   className="text-[0.8rem] py-2 px-3 border-b border-[#A99D87] rounded font-light text-[#424242] bg-white"
                 >
-                  <option value="" disabled selected>
+                  <option value="" disabled>
                     Pilih waktu kehadiran
                   </option>
                   {/* <option value="Akad">Akad</option> */}
@@ -138,7 +138,7 @@ function Reservation() {
                   value={inputValue.numOfPeople!}
                   className="text-[0.8rem] py-2 px-3 border-b border-[#A99D87] rounded font-light text-[#424242] bg-white"
                 >
-                  <option value="" disabled selected>
+                  <option value="" disabled>
                     Pilih jumlah orang
                   </option>
                   <option value="1">1 Orang</option>
