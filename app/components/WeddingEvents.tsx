@@ -72,7 +72,7 @@ function WeddingEvents() {
                   </div>
                   <p className="text-[0.785rem] text-[#5a5a5a] font-light leading-[1.9]">
                     <strong className="text-black font-bold">
-                      Kediaman Mempelai Pria
+                      Kediaman Mempelai Wanita
                     </strong>
                     <br />
                     Jl. Kp. Bedahan, RT.01 RW.09, Bedahan, Kec. Sawangan, Kota Depok, Jawa Barat 16519
