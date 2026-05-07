@@ -37,16 +37,15 @@ export default function Hero({
             <p className="font-extralight text-[0.8rem] mt-4">
               Sabtu, 16 Mei 2026
             </p>
-            <p className="font-extralight text-[1.2rem] mt-8">
+            {/* <p className="font-extralight text-[1.2rem] mt-8">
               {nama.trim() || "Keluarga"}
-            </p>
+            </p> */}
           </div>
           {/* {nama.map((tamu) => ( */}
           <div className="flex flex-col items-center gap-2">
             {/* <p className="text-[0.8rem]">Kediaman Mempelai Wanita</p> */}
             <p className="text-[0.8rem]">
-              Jl. Kemang Kp. Kekupu RT.03/06 No. 65 Kelurahan Pasir Putih
-              Kecamatan Sawangan Kota Depok
+              Jl. Kp. Bedahan, RT.01 RW.09, Bedahan, Kec. Sawangan, Kota Depok, Jawa Barat 16519
             </p>
             {/* <p>{tamu}</p> */}
             <RevealWrapper duration={4000} origin="bottom">
