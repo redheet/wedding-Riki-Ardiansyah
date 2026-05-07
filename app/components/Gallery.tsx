@@ -28,7 +28,7 @@ function Gallery() {
 
   return (
     <section id="gallery">
-      <div className="bg-[url('/images/gallery/5.jpg')] bg-cover bg-center relative px-8 py-16">
+      <div className="bg-[url('/images/gallery/bg.jpg')] bg-cover bg-center relative px-8 py-16">
         <div className="bg-transparent bg-[linear-gradient(360deg,#EAEAEA_53%,#424242_100%)] opacity-90 absolute inset-0"></div>
         <div className="z-10 relative">
           <h1 className="text-4xl italic font-light text-center text-white">
